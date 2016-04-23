@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.s_komlach.batler.fragments.SwitchersFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/wifiSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:drawableLeft="@drawable/ic_wifi_grey600_24dp"
+            android:drawablePadding="@dimen/switch_padding"
+            android:padding="@dimen/switch_padding"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary_text"
+            android:text="@string/wifi" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/bluetoothSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:drawableLeft="@drawable/ic_bluetooth_grey600_24dp"
+            android:drawablePadding="@dimen/switch_padding"
+            android:padding="@dimen/switch_padding"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary_text"
+            android:text="@string/bluetooth" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/brightnesSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:drawableLeft="@drawable/ic_lightbulb_grey600_24dp"
+            android:drawablePadding="@dimen/switch_padding"
+            android:padding="@dimen/switch_padding"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary_text"
+            android:text="@string/brightness" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/syncSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:drawableLeft="@drawable/ic_sync_grey600_24dp"
+            android:drawablePadding="@dimen/switch_padding"
+            android:padding="@dimen/switch_padding"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary_text"
+            android:text="@string/sync" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/orientattionSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:drawableLeft="@drawable/ic_screen_lock_portrait_grey600_24dp"
+            android:drawablePadding="@dimen/switch_padding"
+            android:padding="@dimen/switch_padding"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary_text"
+            android:text="@string/screen_orient" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/mobileDataSwitchWithRoot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:drawableLeft="@drawable/ic_swap_vertical_grey600_24dp"
+            android:drawablePadding="@dimen/switch_padding"
+            android:padding="@dimen/switch_padding"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary_text"
+            android:text="@string/mobiledata" />
+        <View
+            android:id="@+id/delim1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/mobileDataSwitchNonRoot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:drawableLeft="@drawable/ic_swap_vertical_grey600_24dp"
+            android:drawablePadding="@dimen/switch_padding"
+            android:padding="@dimen/switch_padding"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary_text"
+            android:text="@string/mobiledata" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/gpsSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:drawableLeft="@drawable/ic_crosshairs_gps_grey600_24dp"
+            android:drawablePadding="@dimen/switch_padding"
+            android:padding="@dimen/switch_padding"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary_text"
+            android:text="@string/gps" />
+
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/airplanemodeSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:drawableLeft="@drawable/ic_airplane_grey600_24dp"
+            android:drawablePadding="@dimen/switch_padding"
+            android:padding="@dimen/switch_padding"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary_text"
+            android:text="@string/airplanemode" />
+        <View
+            android:id="@+id/delim2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/nfcSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:drawableLeft="@drawable/ic_nfc_grey600_24dp"
+            android:drawablePadding="@dimen/switch_padding"
+            android:padding="@dimen/switch_padding"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary_text"
+            android:text="@string/nfc" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/powersaveSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:drawableLeft="@drawable/ic_battery_60_grey600_24dp"
+            android:drawablePadding="@dimen/switch_padding"
+            android:padding="@dimen/switch_padding"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/primary_text"
+            android:text="@string/power_mode" />
+
+
+
+    </LinearLayout>
+</ScrollView>

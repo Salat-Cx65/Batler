@@ -1,0 +1,45 @@
+<resources>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+    <string name="wakeup_timeout">Wakeup timeout %1$d minutes</string>
+    <string name="standby_timeout">Keep standby %1$d minutes</string>
+    <string name="minutes">Minutes</string>
+
+    <string name="you_switched">You just switched %1$s to %2$s </string>
+    <string name="manual_only">These functions are available  only for manual control</string>
+    <string name="frw1_title">Welcome to Batler</string>
+    <string name="frw1_text">We will do everything so that the battery stores energy as long as possible</string>
+    <string name="frw2_title">Set your preferences</string>
+    <string name="frw2_text">For Batler important to know how you prefer to use the device, to find personally for you balance between convenience and economy</string>
+    <string name="frw3_title">Almost done!</string>
+    <string name="frw3_text">Turn on Batler and use the device as usual. All the rest we will do for you</string>
+    <string name="skip">Skip</string>
+    <string name="done">Done</string>
+    <string name="follow_us">Follow in Twitter</string>
+    <string name="wifi">Disable Wi-Fi</string>
+    <string name="bluetooth">Disable Bluetooth</string>
+    <string name="gps">Disable GPS</string>
+    <string name="mobiledata">Disable Mobile Data</string>
+    <string name="nfc">Disable NFC</string>
+    <string name="usb">Disable USB</string>
+    <string name="airplanemode">Enable Airplane Mode</string>
+    <string name="brightness">Disable Brightness</string>
+    <string name="sync">Disable Background Sync</string>
+    <string name="screen_orient">Lock Screen Orientation</string>
+    <string name="charging">Ignore when charging</string>
+    <string name="smartMode">Smart Mode</string>
+    <string name="power_mode">Enable Power Save Mode</string>
+
+    <string name="switchers">Switchers</string>
+    <string name="rules">Rules</string>
+    <string name="info">Info</string>
+    <string name="exit">Exit</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- Do not translate this-->
+    <string name="twitter_name">batterybutler</string>
+    <string name="app_name">Batler</string>
+
+    <!-- Do not translate this-->
+</resources>

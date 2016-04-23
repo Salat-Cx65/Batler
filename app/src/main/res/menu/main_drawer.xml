@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/switchers_item"
+        android:icon="@drawable/ic_assignment_turned_in_grey600_24dp"
+        android:title="@string/switchers" />
+    <item
+        android:id="@+id/rules_item"
+        android:icon="@drawable/ic_timer_grey600_24dp"
+        android:title="@string/rules" />
+
+    <item
+        android:id="@+id/info_item"
+        android:icon="@drawable/ic_information_outline_grey600_24dp"
+        android:title="@string/info" />
+    <item
+        android:id="@+id/follow_twitter"
+        android:icon="@drawable/ic_twitter_grey600_24dp"
+        android:title="@string/follow_us" />
+
+    <item
+        android:id="@+id/exit_item"
+        android:icon="@drawable/ic_exit_to_app_grey600_24dp"
+        android:title="@string/exit" />
+</menu>
